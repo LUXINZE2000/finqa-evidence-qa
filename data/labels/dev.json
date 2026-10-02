@@ -1,0 +1,72 @@
+{
+  "PNC/2013/page_62.pdf-1": {
+    "exe_ans": -864.0,
+    "answer": "-864",
+    "gold_ids": [
+      "table_6"
+    ]
+  },
+  "V/2008/page_17.pdf-1": {
+    "exe_ans": 127.4,
+    "answer": "127.40",
+    "gold_ids": [
+      "table_3"
+    ]
+  },
+  "HIG/2011/page_188.pdf-1": {
+    "exe_ans": -0.58621,
+    "answer": "58.6%",
+    "gold_ids": [
+      "text_14"
+    ]
+  },
+  "UNP/2015/page_35.pdf-2": {
+    "exe_ans": -0.00555,
+    "answer": "-1%",
+    "gold_ids": [
+      "table_1"
+    ]
+  },
+  "MRO/2004/page_36.pdf-2": {
+    "exe_ans": 71.0,
+    "answer": "71",
+    "gold_ids": [
+      "table_5"
+    ]
+  },
+  "AMAT/2013/page_18.pdf-2": {
+    "exe_ans": 7.22222,
+    "answer": "7.22",
+    "gold_ids": [
+      "text_18"
+    ]
+  },
+  "UNP/2013/page_44.pdf-2": {
+    "exe_ans": -1.0,
+    "answer": "-1",
+    "gold_ids": [
+      "table_4"
+    ]
+  },
+  "JPM/2007/page_157.pdf-2": {
+    "exe_ans": 994.0,
+    "answer": "994",
+    "gold_ids": [
+      "table_6"
+    ]
+  },
+  "TSCO/2018/page_34.pdf-2": {
+    "exe_ans": 0.0411,
+    "answer": "4.11%",
+    "gold_ids": [
+      "table_1"
+    ]
+  },
+  "JPM/2014/page_65.pdf-2": {
+    "exe_ans": 0.8969,
+    "answer": "89.69%",
+    "gold_ids": [
+      "table_2"
+    ]
+  }
+}

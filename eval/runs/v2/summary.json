@@ -1,0 +1,35 @@
+{
+  "keyword": {
+    "n": 20,
+    "accuracy": null,
+    "abstention_rate": 0.0,
+    "errors": 0,
+    "mean_evidence_recall": 0.6875,
+    "median_latency_seconds": 0.0006686998531222343,
+    "within_30_seconds_rate": 1.0,
+    "known_cost_usd": 0,
+    "cost_missing_rows": 20
+  },
+  "full": {
+    "n": 20,
+    "accuracy": 0.85,
+    "abstention_rate": 0.0,
+    "errors": 0,
+    "mean_evidence_recall": 1.0,
+    "median_latency_seconds": 3.9563307501375675,
+    "within_30_seconds_rate": 1.0,
+    "known_cost_usd": 0.018766814,
+    "cost_missing_rows": 0
+  },
+  "rag": {
+    "n": 20,
+    "accuracy": 0.8,
+    "abstention_rate": 0.05,
+    "errors": 0,
+    "mean_evidence_recall": 0.9,
+    "median_latency_seconds": 4.146156899863854,
+    "within_30_seconds_rate": 1.0,
+    "known_cost_usd": 0.015483314,
+    "cost_missing_rows": 0
+  }
+}

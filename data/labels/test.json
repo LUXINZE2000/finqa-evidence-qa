@@ -1,0 +1,155 @@
+{
+  "MRK/2013/page_125.pdf-4": {
+    "exe_ans": -0.44583,
+    "answer": "44.59%",
+    "gold_ids": [
+      "text_9"
+    ]
+  },
+  "AON/2007/page_171.pdf-3": {
+    "exe_ans": 67.0,
+    "answer": "67",
+    "gold_ids": [
+      "table_2"
+    ]
+  },
+  "TFX/2015/page_89.pdf-3": {
+    "exe_ans": 7989.0,
+    "answer": "$ 7989 thousand",
+    "gold_ids": [
+      "table_4",
+      "text_19",
+      "text_20",
+      "table_3"
+    ]
+  },
+  "UNP/2009/page_42.pdf-3": {
+    "exe_ans": 0.21981,
+    "answer": "22%",
+    "gold_ids": [
+      "table_2",
+      "table_7"
+    ]
+  },
+  "ETR/2016/page_150.pdf-1": {
+    "exe_ans": 100.9,
+    "answer": "100.9",
+    "gold_ids": [
+      "text_1"
+    ]
+  },
+  "JPM/2018/page_90.pdf-3": {
+    "exe_ans": 89167520.0,
+    "answer": "89167520",
+    "gold_ids": [
+      "table_4",
+      "table_7"
+    ]
+  },
+  "PNC/2014/page_111.pdf-1": {
+    "exe_ans": 0.0,
+    "answer": "0",
+    "gold_ids": [
+      "text_13",
+      "text_16"
+    ]
+  },
+  "CDW/2015/page_93.pdf-1": {
+    "exe_ans": 19.66667,
+    "answer": "19.7",
+    "gold_ids": [
+      "text_21"
+    ]
+  },
+  "JPM/2005/page_80.pdf-2": {
+    "exe_ans": -292.0,
+    "answer": "-292",
+    "gold_ids": [
+      "table_1",
+      "table_2"
+    ]
+  },
+  "CMCSA/2015/page_112.pdf-4": {
+    "exe_ans": 0.19286,
+    "answer": "19.3%",
+    "gold_ids": [
+      "table_2",
+      "table_3",
+      "text_2",
+      "text_3"
+    ]
+  },
+  "PNC/2012/page_247.pdf-4": {
+    "exe_ans": 45.0,
+    "answer": "45",
+    "gold_ids": [
+      "text_26"
+    ]
+  },
+  "C/2009/page_63.pdf-1": {
+    "exe_ans": 2.22222,
+    "answer": "2.22",
+    "gold_ids": [
+      "text_16",
+      "text_18"
+    ]
+  },
+  "UNP/2015/page_56.pdf-2": {
+    "exe_ans": 0.81237,
+    "answer": "81.2%",
+    "gold_ids": [
+      "text_3",
+      "text_5"
+    ]
+  },
+  "C/2008/page_44.pdf-1": {
+    "exe_ans": -0.51419,
+    "answer": "51%",
+    "gold_ids": [
+      "table_2"
+    ]
+  },
+  "SNA/2012/page_110.pdf-3": {
+    "exe_ans": 658.13,
+    "answer": "34551",
+    "gold_ids": [
+      "table_1"
+    ]
+  },
+  "FBHS/2017/page_22.pdf-1": {
+    "exe_ans": 4.90575,
+    "answer": "4.9",
+    "gold_ids": [
+      "table_1",
+      "table_3"
+    ]
+  },
+  "GPN/2013/page_87.pdf-2": {
+    "exe_ans": 13.4,
+    "answer": "$ 13.4 million",
+    "gold_ids": [
+      "text_5"
+    ]
+  },
+  "MO/2014/page_39.pdf-2": {
+    "exe_ans": 0.80583,
+    "answer": "80.6%",
+    "gold_ids": [
+      "text_18"
+    ]
+  },
+  "MRO/2006/page_93.pdf-1": {
+    "exe_ans": 0.62329,
+    "answer": "62.3%",
+    "gold_ids": [
+      "table_2"
+    ]
+  },
+  "AWK/2017/page_148.pdf-1": {
+    "exe_ans": -0.08353,
+    "answer": "-8.4%",
+    "gold_ids": [
+      "table_1"
+    ]
+  }
+}

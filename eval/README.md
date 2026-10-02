@@ -1,0 +1,12 @@
+# Evaluation data and records
+
+The frozen 10 development and 20 test IDs, selection seed, upstream commit and source hashes are in this directory. The exact selected source material, questions and evaluator-only labels are checked in under [`../data/`](../data/). The scoring convention is specified in [`scoring_rules.md`](scoring_rules.md); `scripts/run_evaluation.py` creates predictions and `scripts/summarize_run.py` produces the expanded metrics and per-case CSV. Numeric accuracy uses the original FinQA `exe_ans` in both rounds. Abstentions, invalid output and API errors remain in the 20-question denominator. Percent values are converted from percentage points only when explicitly tagged as percent. Citation review is separate from numeric scoring and checks year, number, unit, formula and supporting source.
+
+| Archived run | Configuration and records | Main result |
+|---|---|---|
+| [v1 initial test](runs/v1/) | [run metadata](runs/v1/run.json), [metrics](runs/v1/metrics.json), [per-case CSV](runs/v1/all_results.csv), `*.jsonl` | Full context 12/20; RAG 8/20 |
+| [v2 iterative test](runs/v2/) | [run metadata](runs/v2/run.json), [metrics](runs/v2/metrics.json), [per-case CSV](runs/v2/all_results.csv), [citation review](runs/v2/citation_review.csv), `*.jsonl` | Full context 17/20; RAG 16/20 |
+
+Each `*.jsonl` retains the per-question output, retrieved evidence, calculation and usage. `run.json` records the model/configuration, selected IDs, data manifest, prompt hash and source hash. `metrics.json` and `all_results.csv` are derived views; `summary.json` is the original basic run summary. The archived files are copies of the original run outputs, not a rescore. [`runs/v2/迭代测试说明.md`](runs/v2/迭代测试说明.md) describes disputes in the source labels and the preliminary manual citation review. Its 34 supported, 5 disputed and 1 abstained entries are a human inspection of 40 full-context/RAG outputs, not a certified citation-accuracy rate. There was no equivalent completed citation-review sheet for v1.
+
+**Interpretation:** the same 20 public test cases were examined during v1 diagnosis and reused in v2. The v2 improvement is a within-set iteration, not a new independent holdout result. The full-context comparison uses the same model and calculator but gives it all chunks from the corresponding excerpt; keyword/BM25 mode measures retrieval evidence only and has no generated-answer accuracy. For a new run, use the commands in the repository README; new outputs stay in ignored `results/` until explicitly reviewed.

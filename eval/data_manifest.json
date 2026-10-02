@@ -1,0 +1,50 @@
+{
+  "upstream_revision": "0f16e2867befa6840783e58be38c9efb9229d742",
+  "seed": 6201,
+  "splits": {
+    "dev": {
+      "upstream_count": 883,
+      "selected_count": 10,
+      "sha256": "a847fb7e0d61a3125a1e2909852df6b89f1ee64d2c5ff1bf689e332214deee51",
+      "ids": [
+        "PNC/2013/page_62.pdf-1",
+        "V/2008/page_17.pdf-1",
+        "HIG/2011/page_188.pdf-1",
+        "UNP/2015/page_35.pdf-2",
+        "MRO/2004/page_36.pdf-2",
+        "AMAT/2013/page_18.pdf-2",
+        "UNP/2013/page_44.pdf-2",
+        "JPM/2007/page_157.pdf-2",
+        "TSCO/2018/page_34.pdf-2",
+        "JPM/2014/page_65.pdf-2"
+      ]
+    },
+    "test": {
+      "upstream_count": 1147,
+      "selected_count": 20,
+      "sha256": "831dbfb2e785dbc227f895ce3f24046433467aec67b09db2bd6ac7692a8a30dc",
+      "ids": [
+        "MRK/2013/page_125.pdf-4",
+        "AON/2007/page_171.pdf-3",
+        "TFX/2015/page_89.pdf-3",
+        "UNP/2009/page_42.pdf-3",
+        "ETR/2016/page_150.pdf-1",
+        "JPM/2018/page_90.pdf-3",
+        "PNC/2014/page_111.pdf-1",
+        "CDW/2015/page_93.pdf-1",
+        "JPM/2005/page_80.pdf-2",
+        "CMCSA/2015/page_112.pdf-4",
+        "PNC/2012/page_247.pdf-4",
+        "C/2009/page_63.pdf-1",
+        "UNP/2015/page_56.pdf-2",
+        "C/2008/page_44.pdf-1",
+        "SNA/2012/page_110.pdf-3",
+        "FBHS/2017/page_22.pdf-1",
+        "GPN/2013/page_87.pdf-2",
+        "MO/2014/page_39.pdf-2",
+        "MRO/2006/page_93.pdf-1",
+        "AWK/2017/page_148.pdf-1"
+      ]
+    }
+  }
+}
